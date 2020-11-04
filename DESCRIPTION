@@ -1,0 +1,28 @@
+Package: sfrocker
+Title: An Example Of Using Rocker Geospatial
+Version: 0.0.1
+Authors@R:
+    person(given  = "Nicolas",
+           family = "Casajus",
+           role   = c("aut", "cre"),
+           email  = "nicolas.casajus@fondationbiodiversite.fr")
+Description: This research compendium shows a simple example of running a
+    spatial analysis into a Docker container (rocker/geospatial:4.0.3 image).
+    User must have installed the Docker software available at:
+    <https://docs.docker.com/get-docker/>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    ggplot2
+Imports:
+    dplyr,
+    here,
+    knitr,
+    magrittr,
+    rmarkdown,
+    sf,
+    tinytex,
+    utils

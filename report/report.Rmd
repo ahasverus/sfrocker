@@ -1,0 +1,29 @@
+---
+title: "Produced inside a Docker Container"
+author: "Nicolas Casajus"
+date: "`r Sys.time()`"
+output: pdf_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo    = FALSE,
+  eval    = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  results = FALSE
+)
+
+devtools::load_all()
+```
+
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\vspace{2cm}
+
+```{r}
+mapper(dsn = here::here("data"), layer = "gadm36_FRA_2", region = "Bretagne")
+```

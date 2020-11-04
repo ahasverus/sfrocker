@@ -1,0 +1,7 @@
+^\.git$
+^\.gitignore$
+^LICENSE\.md$
+^Dockerfile$
+^\.dockerignore$
+^data$
+^report$
