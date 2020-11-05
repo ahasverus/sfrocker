@@ -1,6 +1,7 @@
 ^\.git$
 ^\.gitignore$
 ^LICENSE\.md$
+^README\.md$
 ^Dockerfile$
 ^\.dockerignore$
 ^data$
