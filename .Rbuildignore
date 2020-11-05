@@ -6,3 +6,5 @@
 ^\.dockerignore$
 ^data$
 ^report$
+^.*\.Rproj$
+^\.Rproj\.user$
