@@ -6,7 +6,7 @@ ENV FOLDER="/home/rstudio"
 
 COPY . "$FOLDER"
 
-WORKDIR "$FOLDER"
+RUN  R -e "remotes::install_deps(pkgdir = \"${FOLDER}\", upgrade = \"never\")" \
+  && R -e "rmarkdown::render(\"${FOLDER}/report/report.Rmd\", clean = TRUE)" \
 
-RUN  Rscript -e "remotes::install_deps(pkgdir = \"/home/rstudio/\", upgrade = \"never\")"
-  && Rscript -e "rmarkdown::render(\"report/report.Rmd\", clean = TRUE)"
+WORKDIR "$FOLDER"

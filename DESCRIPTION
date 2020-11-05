@@ -24,5 +24,4 @@ Imports:
     magrittr,
     rmarkdown,
     sf,
-    tinytex,
     utils
