@@ -16,7 +16,7 @@ Then, start a :whale: container with:
 docker run --rm -p 127.0.0.1:8787:8787 -e DISABLE_AUTH=true nicolascasajus/sfrocker:1.0
 ```
 
-Finally, on a web browser visit the URL `127.0.0.1:8787` (this will start a RStudio Server) and open the `report/report.html` to see result.
+Finally, on a web browser visit the URL `127.0.0.1:8787` (this will start a RStudio Server) and open the `report/report.html` to see final report.
 
 :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada:
 :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada:
