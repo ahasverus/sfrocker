@@ -25,3 +25,5 @@ Imports:
     rmarkdown,
     sf,
     utils
+URL: https://github.com/ahasverus/sfrocker
+BugReports: https://github.com/ahasverus/sfrocker/issues
