@@ -20,3 +20,4 @@ Finally, on a web browser visit the URL `127.0.0.1:8787` (this will start a RStu
 
 :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada:
 :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada:
+:tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada: :tada:
